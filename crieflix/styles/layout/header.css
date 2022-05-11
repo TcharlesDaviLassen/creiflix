@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+
+    margin: 40px 70px;
+    justify-content:flex-start;
+
+    align-items:center;
+
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+
+}
+
+.header_logo{
+    width: 170px;
+    margin-right: 64px;
+    
+
+}
+
+#text{
+    text-decoration: none;
+}
+
+.header_menu{
+    display: inline-block;
+}
+
+.header_sign_in{
+    margin-right: 0;
+    margin-left:auto;
+
+}

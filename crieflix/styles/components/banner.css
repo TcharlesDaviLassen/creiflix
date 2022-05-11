@@ -1,0 +1,26 @@
+.banner{
+    background-image: url('../../../background.jpg') ;
+    height: 820px;
+    display:flex;
+
+    justify-content:center;  /*inverteu a direção do flex com isso precisa inverter a ondenação dos mesmos */
+    align-items:flex-start;
+  
+  
+    flex-direction: column;
+}
+
+
+.banner_title{
+    font-size: 65px;
+    line-height: 70px;
+    letter-spacing: -1.5px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.banner_subtitle{
+    font-size: 20px;
+    line-height: 32px;
+    color: #fff;
+}
