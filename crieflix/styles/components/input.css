@@ -4,6 +4,7 @@
     padding: 16px 24px;
     background-color: var(--color-white);
     border-radius: var(--border-radios-defould);
+    line-height: 22px;
     border: none;
     font-size: var( --font-size-defauld);
     font-family: var( --font-fammily-primary);
@@ -24,4 +25,13 @@
 
 .input::placeholder{
     color: var(--color-ligh-gray);
+}
+
+@media only screen and (max-width: 480px) {
+   .input{
+       width: 220px;
+       height: 48px;
+       font-size: 14px;
+    
+   }
 }

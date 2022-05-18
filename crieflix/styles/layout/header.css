@@ -57,9 +57,45 @@
 
 }
 
+.header_menu_item:last-child{
+    margin-right: 0;
+
+}
+
 .header_menu_item_text,
 .header_menu_item_icon {
     margin-left: auto;
     margin-right: 8px;
 
+}
+
+@media only screen and (max-width: 480px) {
+    .header {
+        flex-wrap: wrap;
+        margin: 16px;
+    }
+
+    .header_logo {
+        width: 100px;
+    }
+
+    .header_menu {
+        order: 3;
+        margin-top: 40px;
+        display: flex;
+        overflow: auto hidden;
+        scrollbar-width: none;
+        margin: 40px -16px 0 -16px;
+        padding: 0 16px;
+    }
+
+    .header_menu::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+
+    }
+
+    .header_menu_item {
+        flex-shrink: 0;
+    }
 }
