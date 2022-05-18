@@ -1,6 +1,7 @@
 .banner {
     background-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 40%, rgba(0, 0, 0, 0.9) 100%),
         url('../../../background.jpg');
+        
     height: 720px;
     display: flex;
 

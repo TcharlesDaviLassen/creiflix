@@ -4,6 +4,9 @@
     background-image: linear-gradient(to top, rgb(0,0,0,.8) 0%, rgba(0, 0, 0, 0) 60%);
 
     position: relative;
+    flex-shrink: 0; /*Para a imagem encolher ou não*/
+
+    margin-right: 16px;
 }
 
 .cover_image{
@@ -25,4 +28,8 @@
     width: 100%;
     padding: 8px 12px;
 
+}
+.cover--large{
+    width: 400px;
+    height: 240px;
 }
