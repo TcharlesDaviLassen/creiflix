@@ -1,0 +1,37 @@
+.slider_title{
+    color:var(--color-white);
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.5;
+    line-height: 40px;
+}
+
+.slider{
+    margin: 70px;
+}
+
+.slider_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider_more{
+    color: var(--color-white);
+    font-size: var(--font-size-defauld);
+    line-height: 22;
+    direction: none;
+}
+
+.slider_more_text,
+.slider_more_icon{
+    vertical-align: middle;
+}
+
+.slider_more_icon{
+    fill: var(--color-primary);
+}
+
+.slider_track{
+    display: flex;
+}

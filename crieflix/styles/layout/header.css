@@ -10,7 +10,7 @@
     top: 0;
     left: 0;
     right: 0;
-    
+
     z-index: 10;
 
 }
@@ -23,20 +23,23 @@
 }
 
 .header_menu_item {
-    fill: grey;
-    color: #737174;
+    fill: var(--color-ligh-gray);
+    color: var(--color-ligh-gray);
     margin-left: 24px;
     margin-right: 8px;
 }
 
+.header_menu_itema svg {
+    fill: var(--color-white);
+}
 
 .header_menu_item--active {
-    color: #fff;
+    color: var(--color-white);
 }
 
 .header_menu_item_icon-inicio {
-    fill: white;
-    color: #fff;
+    fill: var(--color-white);
+    color: var(--color-white);
     margin-right: 8px;
 }
 
@@ -58,6 +61,5 @@
 .header_menu_item_icon {
     margin-left: auto;
     margin-right: 8px;
-    
-}
 
+}

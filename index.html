@@ -14,6 +14,11 @@
     <link rel="stylesheet" href="crieflix/styles/layout/header.css">
     <link rel="stylesheet" href="crieflix/styles/components/button.css">
     <link rel="stylesheet" href="crieflix/styles/components/banner.css">
+    <link rel="stylesheet" href="crieflix/styles/components/input.css">
+    <link rel="stylesheet" href="crieflix/styles/components/input-group.css">
+    <link rel="stylesheet" href="crieflix/styles/base/variables.css">
+    <link rel="stylesheet" href="crieflix/styles/components/slider.css">
+    <link rel="stylesheet" href="crieflix/styles/components/cover.css">
 </head>
 
 
@@ -22,7 +27,7 @@
     <header class="header">
         <img class="header_logo" src="logo.png" alt="">
         <nav class="header_menu">
-            <a href="#" class="header_menu_item header_menu_item--active">
+            <a href="#" class="header_menu_itema header_menu_item--active">
                 <svg class="header_menu_item_icon-inicio" width="23" height="22" viewBox="0 0 23 22"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -83,7 +88,7 @@
     </header>
 
     <section class="banner">
-        <div class="banner_gradient"> </div>
+        <!-- <div class="banner_gradient"> </div> -->
         <div class="banner_content">
             <h1 class="banner_title"> Flimes, séries e muito mais. <br />
                 Sem Limites.
@@ -92,7 +97,74 @@
             <h5 class="banner_subtitle">
                 Assista onde quiser. Cancele quando quiser.
             </h5>
+
+            <form class="input-group" action="/backend.php" method="post">
+                <input class="input" type="email" id="email" name="email" placeholder="Insira seu e-mail" />
+                <button class="button button--large">Assinar</button>
+            </form>
         </div>
+
+    </section>
+
+    <section class="content">
+        <div class="slider">
+            <div class="slider_header">
+                <h4 class="slider_title">Populares</h4>
+                <a href="#" class="slider_more">
+                    <span class="slider_more_text">Ver todos</span>
+                    <svg class="slider_more_icon" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M3.66536 11.9154L14.8212 11.9154L9.69703 17.0395L10.9987 18.332L18.332 10.9987L10.9987 3.66536L9.7062 4.95786L14.8212 10.082L3.66536 10.082L3.66536 11.9154Z"
+                            stroke-width="0.2" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="slider_track">
+
+                <div class="cover">
+                    <img class="cover_image" src="popular/homem-aranha.webp" alt="">
+                    <span class="cover_title">Homem-aranha: Sem volta para casa</span>
+                </div>
+
+                <div class="cover">
+                    <img class="cover_image" src="popular/viuva-negra.webp" alt="">
+                    <span class="cover_title">viuva-negra</span>
+                </div>
+
+                <div class="cover">
+                    <img class="cover_image" src="popular/batman.webp" alt="">
+                    <span class="cover_title">Batman</span>
+                </div>
+
+                <div class="cover">
+                    <img class="cover_image" src="popular/projeto-adam.webp" alt="">
+                    <span class="cover_title">Projeto-adam</span>
+                </div>
+
+                <div class="cover">
+                    <img class="cover_image" src="popular/venom.webp" alt="">
+                    <span class="cover_title">Venom</span>
+                </div>
+
+                <div class="cover">
+                    <img class="cover_image" src="popular/homem-formiga.webp" alt="">
+                    <span class="cover_title">Homem-formiga</span>
+                </div>
+
+                <div class="cover">
+                    <img class="cover_image" src="popular/o-massacre-da-serra-eletrica.webp" alt="">
+                    <span class="cover_title">O massacre da serra eletrica</span>
+                </div>
+
+                <div class="cover">
+                    <img class="cover_image" src="popular/vingadores-ultimato.webp" alt="">
+                    <span class="cover_title">Vingadores-ultimato</span>
+                </div>
+            </div>
+        </div>
+
     </section>
 </body>
 

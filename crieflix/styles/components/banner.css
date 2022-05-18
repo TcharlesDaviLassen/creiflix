@@ -1,35 +1,40 @@
-.banner{
-    background-image: url('../../../background.jpg') ;
-    height: 820px;
-    display:flex;
+.banner {
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 40%, rgba(0, 0, 0, 0.9) 100%),
+        url('../../../background.jpg');
+    height: 720px;
+    display: flex;
 
-    justify-content: flex-startr;  /*inverteu a direção do flex com isso precisa inverter a ondenação dos mesmos */
+     /*inverteu a direção do flex com isso precisa inverter a ondenação dos mesmos */
+    justify-content: flex-startr;
     align-items: center;
-    
-    position: relative;
-    z-index: 0;
+
+    /* position: relative;
+    z-index: 0; */
 }
 
-.banner_gradient{
+/* .banner_gradient {
     position: absolute;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
     z-index: -1;
-    background-image: linear-gradient(to bottom, rgb(0,0,0) 0%, rgba(0,0,0,0.35) 40%, rgba(0,0,0,0.9) 100%);
-}
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 40%, rgba(0, 0, 0, 0.9) 100%);
+} */
 
-.banner_title{
+.banner_title {
     font-size: 65px;
     line-height: 70px;
     letter-spacing: -1.5px;
-    color: #fff;
+    color: var(--color-white);
     margin-bottom: 20px;
 }
 
-.banner_subtitle{
+.banner_subtitle {
     font-size: 20px;
     line-height: 32px;
-    color: #fff;
+    color:var(--color-white);
+}
+.banner_content{
+    margin-left: 70px;;
 }

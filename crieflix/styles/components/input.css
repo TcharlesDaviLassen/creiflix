@@ -1,0 +1,27 @@
+.input{
+    width: 360px;
+    height: 60px;
+    padding: 16px 24px;
+    background-color: var(--color-white);
+    border-radius: var(--border-radios-defould);
+    border: none;
+    font-size: var( --font-size-defauld);
+    font-family: var( --font-fammily-primary);
+}
+
+/* .assinar{
+    width: 160px;
+    height: 60px;
+    padding: 16px 24px;
+    border-radius: 3px ;
+    border: none;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+
+    font-family: 'Questrial', sans-serif;
+} */
+
+.input::placeholder{
+    color: var(--color-ligh-gray);
+}
